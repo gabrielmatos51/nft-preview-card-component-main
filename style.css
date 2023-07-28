@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Outfit';
+    background-color: hsl(217, 54%, 11%);
+}
+
+
+.mainContainer{
+    position: relative;
+    width: 350px;
+    height: 580px;
+    background: hsl(216, 50%, 16%) ;
+    border-radius: 12px;
+    box-shadow: 1px 30px 20px 15px hsla(0, 0%, 0%, 0.151);
+
+    
+}
+.imgContainer{
+   position: relative;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 40px;
+    
+}
+
+.mainImg{
+    position: absolute;
+    width: 100%;
+    border-radius: 8px;
+    top: 22px;
+    left: 25px;
+    z-index: 2;
+    
+   
+}
+.mainImg:hover{
+z-index: 1;
+}
+.viewContainer{
+    position: absolute;
+    top: 22px;
+    left: 25px;
+    width: 300px;
+    height: 300px;
+    z-index: 1;
+}
+.viewContainer:hover{
+    background-color:hsla(178, 100%, 50%, 0.438);
+    z-index: 2;
+    border-radius: 8px;
+}
+.viewImg{
+    position: absolute;
+    width: 20%;
+    top: 120px;
+    left: 120px;
+    
+}
+
+
+.cardTitleContainer{
+    margin: auto; 
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    font-weight: 300;
+}
+.cardTitle{
+    width: 190px;
+    font-size: larger;
+}
+.cardTitle:hover{
+    color:hsl(178, 100%, 50%);
+}
+
+.titleText{
+    color:  hsl(215, 51%, 70%);
+}
+.cardPromo{
+    margin: auto;
+    width: 300px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    border-bottom: 2px solid hsl(215, 32%, 27%);
+    padding-bottom: 20px;
+    
+}
+.promoFee{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 10px; 
+    color:  hsl(178, 100%, 50%);
+    font-weight: 400;
+}
+
+.promoTime{
+    display: flex;
+    flex-direction: row; 
+    gap: 10px;
+    color:  hsl(215, 51%, 70%);
+    font-weight: 400;
+}
+
+.contact{
+    margin: auto;
+    display: flex;
+    width: 300px;
+    gap: 15px;
+    align-items: center;
+}
+.contactImg{
+    width: 11%;
+    border: solid 1px white;
+    border-radius: 25px;
+    margin-top: 15px;
+}
+.contactInfo{
+    margin-top: 15px;
+    color:  hsl(215, 51%, 70%);
+}
+ .contactInfo span{
+    color: white;
+}
+
+.contactInfo span:hover{
+    color:hsl(178, 100%, 50%);
+}
+
