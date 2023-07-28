@@ -18,7 +18,7 @@ body{
 .mainContainer{
     position: relative;
     width: 350px;
-    height: 580px;
+    height: 600px;
     background: hsl(216, 50%, 16%) ;
     border-radius: 12px;
     box-shadow: 1px 30px 20px 15px hsla(0, 0%, 0%, 0.151);
